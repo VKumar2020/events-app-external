@@ -9,16 +9,18 @@
 </head>
 <body>
   <div>
-    <h1>Welcome to Enroute to Cloud's application</h1>
+    <h1 style="background-color:DodgerBlue;">Welcome to Enroute to Cloud's application</h1>
     {{{body}}}
 </div>
+
 <div>
   <h2>Add an event</h2>
     <form action="/event" method="post">
-       Event Title: <input name="Title" type="text" /> <br />
+       Title: <input name=" Event Title" type="text" /> <br />
+       Date: <input name="Event Date" type="text" /> <br />
        Description: <input name="Description" type="text" /> <br />
-       Location:    <input name="Location" type="text" /> <br />
-       <br />
+       Location: <input name="Location" type="text" /> <br />
+      <br />
        <input type="Submit" name="Submit" value="Submit" />
     </form>
   </div>
